@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#023F84</color>
+    <color name="colorPrimaryDark">#192943</color>
+    <color name="primary">#023F84</color>
+    <color name="white">#ffffff</color>
+    <color name="colorAccent">#AFB700</color>
+    <color name="darkgray">#6c6c6c</color>
+
+
+    <color name="startg">#3D5069</color>
+    <color name="centerg">#2A3c58</color>
+    <color name="endg">#192943</color>
+
+    <color name="crestb">#023F84</color>
+    <color name="cresty">#FFD91A</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/db" android:title="Home" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/news" android:title="News" android:icon="@drawable/ic_newspaper"/>
+    <item android:id="@+id/calender" android:title="Calender" android:icon="@drawable/ic_calendar"/>
+    <item android:id="@+id/contact" android:title="Contact" android:icon="@drawable/ic_email"/>
+    <item android:id="@+id/pp" android:title="ParentPay" />
+    <item android:id="@+id/smhw" android:title="ShowMyHomeWork" />
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+
+</menu>

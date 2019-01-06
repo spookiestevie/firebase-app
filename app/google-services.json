@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342987309239",
+    "firebase_url": "https://farmorsauth.firebaseio.com",
+    "project_id": "farmorsauth",
+    "storage_bucket": "farmorsauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342987309239:android:164836aef8b825c4",
+        "android_client_info": {
+          "package_name": "app.test.farmors.farmorstestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342987309239-mqno6da5mjcsp8p92bae18t9n9mfkqbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.test.farmors.farmorstestapp",
+            "certificate_hash": "dca43c90eb68775a0245431a6f5f1083cfd8f86d"
+          }
+        },
+        {
+          "client_id": "342987309239-sk7g6t4quubihu2g3ts22g86ffkteqi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-VhUuk7pmTzslYCmVfyPhcQcO7tcl4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342987309239-sk7g6t4quubihu2g3ts22g86ffkteqi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
