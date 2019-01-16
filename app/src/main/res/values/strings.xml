@@ -9,6 +9,7 @@
     <string name="su_name_hint">Full name</string>
     <string name="su_email_hint">Email</string>
     <string name="su_password_hint">Password</string>
+    <string name="su_passwordconf_hint">Confirm Password</string>
     <string name="button_signup">Sign Up</string>
     <string name="textViewSignup">Don\'t have account? Sign Up</string>
 

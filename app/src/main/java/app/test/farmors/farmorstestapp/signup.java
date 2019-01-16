@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 public class signup extends AppCompatActivity implements View.OnClickListener {
 
     ProgressBar progressBar;
-    EditText name_input, email_input, password_input;
+    EditText name_input, email_input, password_input, passwordconf_input;
 
     private FirebaseAuth mAuth;
 
@@ -31,6 +31,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener {
         name_input = (EditText) findViewById(R.id.name_input);
         email_input = (EditText) findViewById(R.id.email_input);
         password_input = (EditText) findViewById(R.id.password_input);
+        passwordconf_input = (EditText) findViewById(R.id.passwordconf_input);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mAuth = FirebaseAuth.getInstance();
@@ -43,6 +44,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener {
         String username = name_input.getText().toString().trim();
         String email = email_input.getText().toString().trim();
         String password = password_input.getText().toString().trim();
+        String passwordconf = passwordconf_input.getText().toString().trim();
 
         if(email.isEmpty()){
             email_input.setError("Email is required");
@@ -64,6 +66,12 @@ public class signup extends AppCompatActivity implements View.OnClickListener {
             password_input.requestFocus();
             return;
         }
+        if (! password.equals(passwordconf)){
+            passwordconf_input.setError("Passwords are not the same");
+            passwordconf_input.requestFocus();
+            return;
+        }
+
         if(username.isEmpty()){
             name_input.setError("Full name is required");
             name_input.requestFocus();
